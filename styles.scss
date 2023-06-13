@@ -13,17 +13,40 @@ body {
 }
 
 
-.container {
-    background-color: #fff;
-    max-width: 750px;
+.container {    
+    background-color: #fff;    
     border-radius: 10px 10px 0 0;
 
     .navbar {
-        margin-top: 1rem;
-        padding: 1.2rem;
-        box-shadow: 0px 25px 25px -20px rgba(0,0,0,0.75);
+        height: 70px;
+        display: flex;        
+        padding: 20px 36px;
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+
         .logo {
-            width: 15%;
+            width: 6.25rem;
+        }
+    }
+
+    section {
+        padding: 20px;  
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+
+        .hero-photo {
+            max-width: 400px;
+            align-self: center;
+        }
+
+        .hero-header {
+            margin-bottom: 1rem;
+        }
+
+        .hero-text {
+            margin-top: 0;
         }
     }
     

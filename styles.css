@@ -9,7 +9,9 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  background-color: bisque;
+  background-image: url(./src/assets/stacked-waves-bisque.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {

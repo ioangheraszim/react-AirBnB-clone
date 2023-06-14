@@ -43,4 +43,22 @@ body {
 }
 .container .hero-section .hero-text {
   margin-top: 0;
+}
+.container .card {
+  width: 175px;
+  font-size: 12px;
+}
+.container .card .grey {
+  color: grey;
+}
+.container .card .card-image {
+  width: 100%;
+  border-radius: 9px;
+}
+.container .card .card-stats {
+  display: flex;
+  align-items: center;
+}
+.container .card .card-stats .card-star {
+  height: 14px;
 }/*# sourceMappingURL=styles.css.map */

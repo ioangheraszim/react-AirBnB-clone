@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Card() {
+export default function Card(props) {
     return (
         <section className="card">
             <img src="../src/assets/katie-zaferes.png" className="card-image" />

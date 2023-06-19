@@ -44,24 +44,40 @@ body {
 .container .hero-section .hero-text {
   margin-top: 0;
 }
-.container .card {
-  width: 175px;
-  font-size: 12px;
+.container .cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
-.container .card .grey {
+.container .cards-list .card {
+  width: 275px;
+  font-size: 12px;
+  flex: 0 0 auto; /* ADD */
+  display: flex; /* ADD */
+  flex-direction: column; /* ADD */
+}
+.container .cards-list .card .grey {
   color: grey;
 }
-.container .card .bold {
+.container .cards-list .card .bold {
   font-weight: bold;
 }
-.container .card .card-image {
+.container .cards-list .card .card-image {
   width: 100%;
   border-radius: 9px;
 }
-.container .card .card-stats {
+.container .cards-list .card .card-stats {
   display: flex;
   align-items: center;
 }
-.container .card .card-stats .card-star {
+.container .cards-list .card .card-stats .card-star {
   height: 14px;
+}
+.container .cards-list .card .card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container .cards-list .card .card-price {
+  margin-top: auto;
 }/*# sourceMappingURL=styles.css.map */

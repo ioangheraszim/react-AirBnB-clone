@@ -23,7 +23,10 @@ function App() {
     <main className="container">
       <Navbar />
       <Hero />
-      {theData}
+      <section className="cards-list">
+        {theData}
+      </section>
+      
     </main>
   )
 }

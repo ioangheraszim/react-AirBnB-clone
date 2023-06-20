@@ -83,6 +83,7 @@ body {
             .card-stats {
                 display: flex;
                 align-items: center;
+                margin-top: .5rem;
     
                 .card-star {
                     height: 14px;
@@ -90,6 +91,7 @@ body {
             }
     
             .card-title {
+                margin-top: auto;
                 overflow: hidden;
                 text-overflow: ellipsis;
             }

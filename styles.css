@@ -72,11 +72,13 @@ body {
 .container .cards-list .card .card-stats {
   display: flex;
   align-items: center;
+  margin-top: 0.5rem;
 }
 .container .cards-list .card .card-stats .card-star {
   height: 14px;
 }
 .container .cards-list .card .card-title {
+  margin-top: auto;
   overflow: hidden;
   text-overflow: ellipsis;
 }

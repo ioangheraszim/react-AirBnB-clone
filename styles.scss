@@ -18,6 +18,7 @@ body {
 .container {
     background-color: #fff;
     border-radius: 10px 10px 0 0;
+
     .navbar {
         height: 70px;
         display: flex;
@@ -43,6 +44,7 @@ body {
         }
 
         .hero-header {
+            margin-top: 1rem;
             margin-bottom: 1rem;
         }
 
@@ -53,16 +55,17 @@ body {
 
     .cards-list {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 20px;
         overflow-x: auto;
 
         .card {
             width: 275px;
             font-size: 12px;
-            flex: 0 0 auto;         /* ADD */
-            display: flex;          /* ADD */
-            flex-direction: column; /* ADD */
+            flex: 0 0 auto;         
+            display: flex;          
+            flex-direction: column;
+            position: relative;
     
             .grey {
                 color: grey;
@@ -93,7 +96,17 @@ body {
     
             .card-price {
                 margin-top: auto;
-            }            
+            }   
+
+            .card-badge {
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                background-color: white;
+                padding: 5px 10px;
+                border-radius: 10px;
+                font-weight: bold;
+            }        
         }
     }
 

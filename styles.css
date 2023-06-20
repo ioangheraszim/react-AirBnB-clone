@@ -39,6 +39,7 @@ body {
   align-self: center;
 }
 .container .hero-section .hero-header {
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .container .hero-section .hero-text {
@@ -46,16 +47,17 @@ body {
 }
 .container .cards-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 20px;
   overflow-x: auto;
 }
 .container .cards-list .card {
   width: 275px;
   font-size: 12px;
-  flex: 0 0 auto; /* ADD */
-  display: flex; /* ADD */
-  flex-direction: column; /* ADD */
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 .container .cards-list .card .grey {
   color: grey;
@@ -80,4 +82,13 @@ body {
 }
 .container .cards-list .card .card-price {
   margin-top: auto;
+}
+.container .cards-list .card .card-badge {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
 }/*# sourceMappingURL=styles.css.map */

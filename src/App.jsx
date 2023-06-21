@@ -10,7 +10,11 @@ function App() {
     return (
       <Card
       key={item.id}
-      item={item} 
+      // without the spread syntax more cluttered
+      // item={item} 
+
+      //with spread syntax less cluttered 
+      {...item}
       />
     )
   })
